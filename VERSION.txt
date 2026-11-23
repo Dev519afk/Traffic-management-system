@@ -1,0 +1,1 @@
+TrafficIQ Expanded | 2026-11-22 | 10 automated tests | YOLO runtime pending user Windows policy check

@@ -1,0 +1,20 @@
+AI TRAFFIC MANAGEMENT — QUICK START (Windows / Python 3.12)
+============================================================
+1. Extract this ZIP to D:\AI_Traffic_Management_Complete
+2. Open PowerShell there.
+3. Set up an APPROVED Python interpreter / virtual environment. See README.md.
+4. Install: python -m pip install -r requirements.txt
+5. Check:   python check_setup.py
+6. Launch:  python -m streamlit run dashboard.py
+7. Pick a video in the LEFT SIDEBAR; open Video Analysis.
+8. Start with 5 seconds of inference; increase only after it works.
+9. Open Signal Control to test one-GREEN-only simulated controller.
+10. Run automated tests: python -m unittest discover -s tests -v
+
+NOTE: Your previous WinError 4551 is a WINDOWS APP CONTROL block on
+PyTorch's c10_cuda.dll. Installing this ZIP does not override Windows
+security policy. You can still use the signal controller and database
+without loading the model. Read WINDOWS_TROUBLESHOOTING.md.
+
+DO NOT present counts as exact physical vehicles. Do not claim the
+vehicle-only model detects helmets or red-light violations automatically.
